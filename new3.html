@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-color: #f6f8f7;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .maincontainer{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap:wrap;
+            padding: 20px;
+        }
+        h1{
+            text-align: center;
+            font-family: sans-serif;
+            padding-top: 30px;
+        }
+        .blockdiv{
+            width: 220px;
+            height: 150px;
+            background-color: #2947a9;
+            color: white;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            border-radius: 3px;
+            margin: 20px;
+            padding: 15px;
+            position: relative;
+            transition: all 0.4s;
+        }
+        .blockdiv:hover{
+            transform: scale(1.1);
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        .odd{
+            color: white;
+                }
+        .even{
+            color: #2947a9;
+        }
+        .even2{
+            color: #2947a9;
+            background-color: white;
+        }
+        p{
+            font-size: 20px;
+            font-family: sans-serif;
+            text-align: center;
+           
+        }
+        .testsetting{
+            /* position: absolute;
+           
+            bottom: 30px ; */
+            display: flex;
+            justify-content: center;
+        }
+        .testsetting div{
+            position: absolute;
+            bottom: 40px;
+        }
+        .blockdiv {
+             font-size: 25px;
+             
+              text-align: center;
+         }
+         .testsetting i{
+            position: absolute;
+            top: 60px;
+         }
+        
+        </style>
+</head>
+<body>
+    <h1>Services</h1>
+    <div class="maincontainer">
+        <div class="blockdiv">
+        <div class="testsetting">
+            <i class="fa-solid fa-building" style="color: #1e2f4d;"></i>
+           <div>
+            <p class="odd" >Construction</p>
+           </div>
+        </div>
+        </div>
+        <div class="blockdiv even2">
+            <div class="testsetting">
+            <i class="fa-solid fa-toolbox" style="color: #a3a7ae;"></i>
+           <div> <p class="even ">Renovation</p> </div>
+        </div>
+        </div>
+        <div class="blockdiv">
+            <div class="testsetting">
+            <i class="fa-solid fa-mobile"></i>
+            <div> <p class="odd">Consultation</p> </div>
+        </div>
+        </div>
+        <div class="maincontainer">
+        <div class="blockdiv even2">
+            <div class="testsetting">
+            <i class="fa-solid fa-screwdriver-wrench" style="color: #bdc2cc;"></i>
+            <div><p class="even" >Repair Services</p></div>
+        </div>
+        </div>
+        <div class="blockdiv">
+            <div class="testsetting">
+            <i class="fa-solid fa-sitemap"></i>
+           <div><p class="odd">Architecture</p></div>
+        </div>
+        </div>
+        <div class="blockdiv even2">
+            <div class="testsetting">
+            <i class="fa-solid fa-battery-full" style="color: #b8bdc6;"></i>
+            <div><p class="even">Electric</p></div>
+        </div>
+    </div>
+</body>
+</html>

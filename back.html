@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .maincontainer{
+            display: flex;
+        }
+        .imgdiv{
+            width: 40%;
+        }
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+    .div1{
+        width: 60%;
+        padding: 70px;
+        background-color: #f7f7f7;
+    }
+    h1{
+        color: #2B583A;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    h4{
+        color: #3F3F3F;
+        font-family: 'Courier New', Courier, monospace;
+         text-align: center;
+        font-style: normal;
+        font-weight: 300;
+    }
+    .div2{
+        padding: 40px;
+    }
+    input[type=text]{
+        margin: 8px,0px;
+        padding: 12px, 20px;
+        display: inline-block;
+        border: none;
+        color: #ffffff;
+        border-radius: 4px;
+        width: 300px;
+        height: 50px;
+        box-sizing: border-box;
+
+    }
+    #cancel{
+        background-color: rgb(209,212,190);
+        width: 40%;
+        cursor: pointer;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border-radius: 5px;
+        border: none ;
+        
+    }
+    #submit{
+        background-color: rgb(107,119,37);
+        width: 40%;
+        cursor: pointer;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border-radius: 5px;
+        border: none ;
+        color: #ffffff;
+        margin-left: 20px;
+    }
+    label{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #adventure1{
+        margin: 5px;
+        color: #648570;
+    }
+    p{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #td2{
+        padding-left: 40px;
+    }
+    .img-text{
+        position: absolute;
+        top: 80px;
+        left: 90px;
+        color: #ffffff;
+        font-family:sans-serif;
+    }
+    </style>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="imgdiv">
+            <img src="active-man-on-bike-in-the-middle-of-autumn-nature-2022-11-02-02-34-08-utc 1.png" alt="">
+        </div>
+        <div class="div1">
+            <h1>Join The Summer Adventure Challange!</h1>
+            <h4>Sign up to embark on an unforgettable outdoor experience.</h4>
+            <div class="div2">
+            <form class="form1">
+                <table>
+                    <tr><td><label for="Name">First Name:</label><br>
+                        <input type="text" name="Name" id="Name"><br><br></td>
+                        <td id="td2"><label for="Last Name">Last Name:</label><br>
+                        <input type="text" name="last Name" id="last Name"><br><br></td></tr>
+                    <tr><td><label for="email">Email Address:</label><br>
+                        <input type="text" name="email" id="email"><br><br></td>
+                        <td id="td2"><label for="phoneNo">Phone Number:</label><br>
+                        <input type="text" name="phoneNo" id="phoneNo"><br><br></td></tr>
+                    <tr><td><label for="city">City:</label><br>
+                        <input type="text" name="city" id="city"><br><br></td>
+                    <td id="td2"><label for="state">State:</label><br>
+                        <input type="text" name="state" id="state"><br><br></td></tr>
+                </table>
+            </form>
+            <p>Select Your preffered adventure:</p>
+            <input type="radio" id="adventure1" value="Hiking">
+            <label for="Hiking" id="adventure1">Hiking</label>
+            <input type="radio" id="adventure1" value="Kayaking">
+            <label for="kayaking" id="adventure1">Kayaking</label>
+            <input type="radio" id="adventure1" value="Rock Climbing">
+            <label for="rock climbing" id="adventure1">Rock Climbing</label>
+            <input type="radio" id="adventure1" value="mountain Biking">
+            <label for="mountain climbing" id="adventure1">Mountain Biking</label>
+            <input type="radio" id="adventure1" value="Camping">
+            <label for="camping" id="adventure1">Camping</label><br>
+            <br>
+            <input type="checkbox" id="check">
+            <label for="checkbox">By Signing up,you agree to our terms and conditions.</label><br><br><br>
+            <input type="button" id="cancel" value="Cancel">
+            <input type="button" id="submit" value="Submit">
+            </div>
+        </div>
+        <div class="img-text">
+            <h1 class="img-text">Summer <br> Adventure <br>Challange</h1>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main {
+        display: flex;
+    }
+
+    .left {
+        width: 60%;
+        display:flex ;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .right {
+        width: 40%;
+        padding: 50px;
+    }
+    .boxText{
+        padding-left: 0.5rem;
+        border-left: 4px solid orange;
+    }
+    .head{
+        display: flex;
+        justify-content: space-between;
+    }
+    .headImg{
+        position:absolute;
+        top: -15px;
+        right: -15px;
+        width: 70px;
+        object-fit: cover;
+    }
+    .mainBox{
+        position: relative;
+        margin-left: 20px;
+    }
+    .heading{
+        color: var(--Primary, #2947A9);
+        font-family: sans-serif;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    h1{
+        font-family: monospace;
+    }
+    button{
+        width: 30%;
+        cursor: pointer;
+        padding: 10px;
+        border:none;
+        background: var(--Primary, #2947A9);
+        color: white;
+        margin-top: 20px;
+        }
+        .box2{
+        width: 300px;
+        border-radius: 4px;
+        border: 1px solid var(--neutral-white, #FFF);
+        background: var(--neutral-white, #FFF);
+        box-shadow: 0px 4px 6px -2px rgba(17, 24, 39, 0.05), 0px 12px 16px -4px rgba(17, 24, 39, 0.10);
+        padding:1px;
+        z-index: 999;
+        margin-right: 300px;
+    }
+    .box{
+        width: 280px;
+        border-radius: 4px;
+        border: 1px solid var(--neutral-white, #FFF);
+        background: var(--neutral-white, #FFF);
+        box-shadow: 0px 4px 6px -2px rgba(17, 24, 39, 0.05), 0px 12px 16px -4px rgba(17, 24, 39, 0.10);
+        padding:1px;
+        z-index: 1000;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+</style>
+
+<body>
+
+    <div class="main">
+        <div class="left">
+              <div class="box">
+                <div class="mainBox">
+                    <div class="head">
+                        <h1>80</h1>
+                       <img class="headImg" src="./illus.png" alt="">
+                    </div>
+                    <p class="boxText">Happy clients</p>
+                </div>
+              </div>
+              <div class="box2">
+                <div class="mainBox">
+                    <div class="head">
+                        <img src="illus (3).png" alt="" class="headImg">
+                        <h1>123</h1>
+                    </div>
+                    <p class="boxText">Projects Completed</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="mainBox">
+                    <div class="head">
+                        <h1>37</h1>
+                       <img class="headImg" src="illus (1).png" alt="">
+                    </div>
+                    <p class="boxText">Awards Win</p>
+                </div>
+              </div>
+              <div class="box2">
+                <div class="mainBox">
+                    <div class="head">
+                        <h1>30</h1>
+                        <img src="illus (2).png" alt="" class="headImg">
+                    </div>
+                    <p class="boxText">Years of Business</p>
+                </div>
+              </div>
+        </div>
+        <div class="right">
+            <h1 class="heading">30 Years <br>Experience</h1>
+            <p>Our company has been the <br> leading provided construction <br> services to clients throughout <br> the USA since 1988.</p>
+            <button>Contact us</button>
+        </div>
+    </div>
+</body>
+
+</html>

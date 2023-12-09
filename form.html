@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body{
+            background-color: rgb(143, 188, 143);
+        }
+    input[type=submit]{
+        background-color: #4CAF50;
+        width: 100%;
+        cursor: pointer;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border-radius: 4px;
+        border: none ;
+    }
+    input[type=submit]:hover{
+        background-color: #45a049;
+        
+    }
+    input[type=text]{
+        margin: 8px,0 ;
+        padding: 12px, 20px;
+        display: inline-block;
+        width: 100%;
+ 
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+
+    }
+    input{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-top: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    .maindiv{
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 60px;
+        
+        width: 70%;
+        
+  
+
+
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    footer{
+        font-family:sans-serif;
+        float: right;
+        margin-top: 50px;
+        position: absolute;
+        bottom: 20px;
+        left: 500px;
+        display: none;
+    }
+    .phone{
+        margin-right:5px;
+    }
+    .select_country{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-radius: 4px;
+        margin-top: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    </style>
+</head> 
+<body>
+    <div class="maindiv">
+    
+        <form action="form1">
+        <label for="Name">First Name:</label><br>
+        <input type="text" name="Name" id="Name" placeholder="Enter name..."><br><br>
+        <label for="Name2">Last Name:</label><br>
+        <input type="text" name="Name2" id="Name2" placeholder="Enter Last name..."><br><br>
+        <label for="Country">Country:</label><br>
+        <select class="select_country" name="country" id="Country"><br>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Australia">Australia</option>
+        <option value="India">India</option>
+        <option value="United States">United states</option><br>
+    </select>
+    <br><br><br><br><br>
+    <input type="submit" value="Submit">
+        </form>
+    </div>
+    <footer><i class="fa-solid fa-phone phone"></i><strong>Contact us:</strong> +973 5463 78952</footer>
+</body>
+</html>

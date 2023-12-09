@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .upper{
+            height: 60%;
+            background-color: #f6f8f7;
+            padding: 50px;
+        }
+        .lower{
+            height: 40%;
+        }
+        .head1{
+            font-family: Work Sans;
+            text-align: center;
+            color: #292e3d;
+        }
+        .para1{
+            font-family: Work Sans;
+            text-align: center;
+            color: #292e3d;
+            margin-top: 10px;
+        }
+        .infodiv{
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .para2{
+            font-family: Work Sans;
+            color: #838cac;
+            font-weight: 300;
+        }
+        input[type=text]{
+        display: inline-block;
+        border: 1px solid #D3D3D3;;
+        color: #ffffff;
+        border-radius: 4px;
+        width: 250px;
+        height: 40px;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+    .textarea{
+        border: 1px solid#D3D3D3;
+        padding: 5px;
+        font-family: Work Sans;
+        margin-top: 10px;
+    }
+    #submit{
+        background-color: #2947a9;
+        width: 45%;
+        cursor: pointer;
+        padding: 14px 20px;
+        border-radius: 3px;
+        border: none ;
+        color: #ffffff;
+       margin-top: 30px;
+       margin-left: 120px;
+    }
+    .ep{
+        margin-left: 10px;
+    }
+    .pr{
+        margin-top: 10px;
+    }
+    .para3{
+        font-family: Work Sans;
+        display: inline;
+        color: #2947a9;
+        font-weight: 600;
+    }
+    .para4{
+        font-family: Work Sans;
+        display: inline;
+        margin-left: 20px;
+    }
+    .right{
+        float: right;
+        position: relative;
+        bottom: 170px ;
+    }
+    .lastbutton{
+        background-color: #f9995d;
+        color: white;
+        padding: 12px 30px;
+        border-radius: 3px;
+        border: none;
+        cursor: pointer;
+       
+    }
+    .icon{
+        font-size: 30px;
+        margin: 8px;
+    }
+    .lastimg{
+      width: 150px;
+      margin-top: 20px;
+    }
+    .lower{
+       padding: 60px;
+      
+    }
+    .left{
+        padding: 10px;
+    }
+    .lastfooter{
+        width: 100%;
+        background-color: #2947a9;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+    }
+    .lastpara{
+        color: white;
+        font-family: Work Sans;
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .mardiv{
+        margin-top: 15px;
+    }
+    input::placeholder{
+        color: rgb(203,207,220);
+    }
+    .svg{
+      width: 30px;
+      height: 30px;
+    }
+    .svg2{
+        margin-left: 7px;
+    }
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+        <div class="upper">
+            <h1 class="head1">What can us do for you?</h1>
+            <p class="para1">We are ready to work on a project of any complexity,<br>whether it’s commercial or residential.</p>
+            <div class="infodiv">
+                <form class="form1">
+                    <table><tr>
+                        <td><input type="text" placeholder="Your Name"></td>
+                        <td><input type="text" placeholder="Email" class="ep"></td>
+                    </tr>
+                <tr><td><input type="text" placeholder="Reason of Contacting" class="pr"></td>
+                <td><input type="text" placeholder="Phone" class="ep pr"></td></tr></table>
+                <textarea name="" id="" cols="66" rows="6" class="textarea" placeholder="Message"></textarea>
+                <p class="para2">*Indicates a required field</p>
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+        <div class="lower">
+            <div class="left">
+                <p class="para3">ADDRESS:</p><p class="para4">6391 Elgin St. Celina, Delaware 10299</p><br>
+                <div class="mardiv"><p class="para3">PHONE:</p><p class="para4">+84 1102 2703</p><br></div>
+                <div class="mardiv"><p class="para3">EMAIL:</p><p class="para4">hello@thebox.com</p><br></div>
+                <img src="Group 1.png" alt="" class="lastimg">
+            </div>
+            <div class="right">
+                <p class="para3">NEWSLETTER:</p><br>
+                <div class="mardiv"><input type="text" placeholder="Your email here">
+                <button class="lastbutton">Subscribe</button><br></div><br>
+                <p class="para3">SOCIAL:</p><br><br>
+                <svg class="svg" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1002_337)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.853851 8.60485C0.853851 12.596 3.75253 15.9148 7.54364 16.5878V10.7897H5.5367V8.56003H7.54364V6.77586C7.54364 4.76893 8.83677 3.65441 10.6658 3.65441C11.2451 3.65441 11.8699 3.74338 12.4493 3.83236V5.88411H11.4237C10.4423 5.88411 10.2195 6.37448 10.2195 6.9993V8.56003H12.3603L12.0037 10.7897H10.2195V16.5878C14.0106 15.9148 16.9093 12.5966 16.9093 8.60485C16.9093 4.16484 13.2968 0.532288 8.88159 0.532288C4.46633 0.532288 0.853851 4.16484 0.853851 8.60485Z" fill="#3D445C"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_1002_337">
+                    <rect width="16.0555" height="16.0555" fill="white" transform="translate(0.853851 0.532288)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                    
+                <svg class="svg svg2" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1002_339)">
+                    <path d="M8.96481 0.853416C4.7085 0.853416 1.25818 4.30374 1.25818 8.56005C1.25818 12.8164 4.7085 16.2667 8.96481 16.2667C13.2211 16.2667 16.6714 12.8164 16.6714 8.56005C16.6714 4.30374 13.2211 0.853416 8.96481 0.853416ZM7.07829 11.7543H5.5177V6.73213H7.07829V11.7543ZM6.28836 6.1156C5.79546 6.1156 5.47676 5.76639 5.47676 5.3345C5.47676 4.89378 5.80509 4.55501 6.30843 4.55501C6.81177 4.55501 7.12003 4.89378 7.12967 5.3345C7.12967 5.76639 6.81177 6.1156 6.28836 6.1156ZM12.778 11.7543H11.2174V8.97107C11.2174 8.32323 10.991 7.88331 10.4267 7.88331C9.99557 7.88331 9.73949 8.18114 9.6263 8.46773C9.58455 8.56968 9.57411 8.71418 9.57411 8.85788V11.7535H8.01272V8.33367C8.01272 7.7067 7.99265 7.18249 7.97178 6.73133H9.32766L9.39911 7.42894H9.43042C9.63593 7.10141 10.1393 6.61814 10.9814 6.61814C12.0081 6.61814 12.778 7.30611 12.778 8.78482V11.7543V11.7543Z" fill="#3D445C"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_1002_339">
+                    <rect width="16.0555" height="16.0555" fill="white" transform="translate(0.937073 0.532288)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                    
+                <svg class="svg svg2" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1002_341)">
+                    <path d="M8.04803 0.853416C3.79172 0.853416 0.3414 4.30374 0.3414 8.56005C0.3414 12.8164 3.79172 16.2667 8.04803 16.2667C12.3043 16.2667 15.7547 12.8164 15.7547 8.56005C15.7547 4.30374 12.3043 0.853416 8.04803 0.853416ZM11.1829 7.16643C11.1861 7.23226 11.1869 7.29809 11.1869 7.36231C11.1869 9.36924 9.6608 11.682 6.86876 11.682C6.04374 11.6834 5.23589 11.4465 4.54232 10.9997C4.66032 11.0141 4.78154 11.0197 4.90437 11.0197C5.61563 11.0197 6.26989 10.7781 6.78928 10.3703C6.47276 10.3641 6.16606 10.2593 5.91194 10.0705C5.65781 9.88168 5.46892 9.61831 5.37158 9.31706C5.59889 9.36029 5.83306 9.35123 6.05635 9.29057C5.7128 9.2211 5.40385 9.03495 5.18189 8.76368C4.95993 8.49242 4.83863 8.15273 4.83854 7.80223V7.78376C5.04325 7.89696 5.27766 7.96599 5.52652 7.97402C5.20444 7.75962 4.97645 7.43028 4.88915 7.05335C4.80186 6.67641 4.86186 6.28037 5.05689 5.94621C5.43818 6.41503 5.91366 6.79856 6.45257 7.07195C6.99148 7.34535 7.5818 7.50252 8.1853 7.5333C8.10858 7.20762 8.1416 6.86572 8.27924 6.56074C8.41687 6.25577 8.65141 6.00481 8.94639 5.84688C9.24137 5.68896 9.58026 5.63291 9.91038 5.68746C10.2405 5.74201 10.5433 5.90409 10.7718 6.14851C11.1116 6.0813 11.4373 5.95669 11.7352 5.78004C11.622 6.13176 11.3849 6.43043 11.0681 6.62054C11.369 6.5843 11.6628 6.5034 11.9399 6.38052C11.7364 6.68549 11.48 6.95164 11.1829 7.16643V7.16643Z" fill="#3D445C"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_1002_341">
+                    <rect width="16.0555" height="16.0555" fill="white" transform="translate(0.0202942 0.532288)"/>
+                    </clipPath>
+                    </defs>
+                    </svg> 
+            </div>
+        </div>
+        <footer class="lastfooter">
+            <p class="lastpara">TheBox Company © 2022. All Rights Reserved</p>
+        </footer>
+    </div>
+</body>
+</html>
